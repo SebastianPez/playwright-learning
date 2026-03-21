@@ -3,7 +3,7 @@ const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
     use: {
-        baseURL: 'https://example.com',
+        baseURL: 'https://jsonplaceholder.typicode.com',
         headless: true
     }
 });
