@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const { FormPage } = require('../pages/formPage');
+const { FormPage } = require('../../pages/formPage');
 
 test('should submit form successfully', async ({ page }) => {
     const form = new FormPage(page);
