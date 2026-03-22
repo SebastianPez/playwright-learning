@@ -5,6 +5,7 @@
   "scripts": {
     "test": "playwright test",
     "test:api": "playwright test tests/api",
+    "test:integration": "playwright test tests/integration",
     "test:ui": "playwright test tests/ui",
     "test:ui-mode": "playwright test --ui",
     "test:headed": "playwright test --headed"
