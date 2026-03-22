@@ -1,9 +1,10 @@
 //@ts-check
+require('dotenv').config();
 const { defineConfig } = require('@playwright/test');
 
 module.exports = defineConfig({
     use: {
-        baseURL: 'https://jsonplaceholder.typicode.com',
+        baseURL: process.env.BASE_URL,
         headless: true
     }
 });

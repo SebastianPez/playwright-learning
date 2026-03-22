@@ -8,7 +8,7 @@ class FormPage {
     }
 
     async goto() {
-        await this.page.goto('https://demoqa.com/text-box');
+        await this.page.goto(process.env.UI_URL + '/text-box');
     }
 
     async fillForm(name, email) {
